@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+body{
+     width: 100vw;
+     height: 100vh;
+     background-color: hsl(123, 83%, 5%);
+     display: grid;
+     place-items: center;
+}
+form{
+     background-color: hsl(69, 87%, 69%);
+     padding: 80px;
+     width: 600px;
+     height: 150px;
+     margin:  auto;
+     text-align: center;
+
+}
+label{
+     font-size: 30px;
+}
+#temp{
+     border: none;
+     padding: 10px;
+     height:20px ;
+     width: 100px;
+     font-size: 20px;
+     margin: 20px;
+}
+#temp_diff{
+     border: none;
+     padding: 10px;
+     height: 40px;
+     width: 100px;
+     font-size: 15px;
+     margin-top: 20px;
+     vertical-align: top;
+}
+[type="submit"]{
+     height: 35px;
+     margin: 20px;
+     width: 100px;
+     font-size: 15px;
+     border: none;
+     background-color: #0c0c00;
+     color: hsl(0, 0%, 94%);
+}
+#resultContainer{
+     font-size: 35px;
+}
